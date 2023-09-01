@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: green;
+    text-decoration: underline;
+
+}
+
+section {
+    color: blueviolet;
+    font-style: italic;
+    padding: 10px;
+}
+
+.itemsPrimarios {
+
+    border: solid 2px green;
+    padding: 5px;
+}
+
+footer {
+    font-size: 10px;
+}
+
+/* Estilo Responsive*/
+@media (max-width: 600px) {
+    body {
+        font-family:'Times New Roman', Times, serif;
+        background-color: #d3c8c8;
+        font-size: 16px;
+    }
+
+    header, section, footer {
+        padding: 10px;
+    }
+}

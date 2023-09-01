@@ -1,0 +1,86 @@
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+#sectionPersonal, #sectionHabilidades {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#sectionPersonal h2, #sectionHabilidades h2 {
+    font-size: 24px;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: aqua;
+}
+
+#sectionHabilidades ul {
+    list-style-type: square;
+    font-family: cursive;
+}
+
+footer {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media only screen and (max-width: 600px) {
+    
+    /* Podemos ajustar el padding del encabezado y las subsecciones */
+    
+    header, #sectionPersonal, #sectionHabilidades {
+        padding: 10px;
+    }
+    
+    /* Y también cambiar el tamaño de la fuente del título */
+
+    h1, h2 {
+        font-size: 18px;
+    }
+}
+
+/* Estilos para pantallas medianas (tabletas) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    /* Aquí podríamos mantener el padding del encabezado y las
+    subsecciones igual */
+    
+    header, #sectionPersonal, #sectionHabilidades {
+        padding: 20px;
+    }
+    
+    /* Pero quizás queremos que los títulos sean un poco más grandes que
+    en móviles pero menores que en desktop */
+    
+    h1, h2 {
+        font-size: 22px;
+    }
+}
+
+/* Estilos para pantallas grandes (desktops) */
+@media only screen and (min-width: 1025px) {
+    
+    /* Aquí podríamos aumentar el padding del encabezado y las
+    subsecciones */
+    
+    header, #sectionPersonal, #sectionHabilidades {
+        padding: 30px;
+    }
+    
+    /* Y hacer que los títulos sean más grandes */
+    
+    h1, h2 {
+        font-size: 28px;
+    }
+}
+    
